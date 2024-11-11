@@ -250,10 +250,10 @@ export const navLinks = [
     return {
       deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
       deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
-      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
-      reactLogoPosition: isSmall ? [2, 4, 0] : isMobile ? [5, 6, 0] : isTablet ? [2, 4, 0] : [12, 3, 0],
-      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+      cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -7, 0] : isTablet ? [5, -7, 0] : [7, -7.8, 0],
+      reactLogoPosition: isSmall ? [2, 4, 0] : isMobile ? [6, 6, 0] : isTablet ? [6,7, 0] : [8, 7, 0],
+      ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 14, 0] : [-16, 14, 0],
+      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-9, -6, -10] : [-13, -12, -10],
     };
   };
   

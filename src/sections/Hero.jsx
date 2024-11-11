@@ -7,6 +7,9 @@ import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import Target from "../components/Target";
 import ReactLogo from "../components/ReactLogo";
+import Cube from "../components/Cube";
+import Rings from "../components/Rings";
+import HeroCamera from "../components/HeroCamera";
 
 function Hero() {
   
@@ -15,7 +18,7 @@ function Hero() {
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
   return (
-    <section className="min-h-screen border-2 border-blue-500 w-full flex flex-col relative">
+    <section className="min-h-screen  w-full flex flex-col relative">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
           Hello, I am Antonio! <span className="waving-hand">👋</span>
@@ -27,14 +30,17 @@ function Hero() {
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-            <HackerRoom
+            <HeroCamera isMobile={isMobile}>  <HackerRoom
               scale={sizes.deskScale}
               rotation={[0.2, -3.2, 0]}
               position={[0.2, -3.2, 0]}
-            />
+            /></HeroCamera>
+          
             <group>
               <Target position={sizes.targetPosition}/>
               <ReactLogo position={sizes.reactLogoPosition}/>
+              <Cube position={sizes.cubePosition} />
+              <Rings position={sizes.ringPosition}/>
             </group>
 
 
