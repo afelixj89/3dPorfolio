@@ -85,7 +85,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext text-center">
-                I work remotely across various time zones!
+                Location
               </p>
               <p className="grid-subtext text-center">
                 I&apos;m located in New York City and available for remote work.
