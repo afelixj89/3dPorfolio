@@ -24,13 +24,9 @@ const About = () => {
               className="w-full sm:h-[276px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext text-center">Hello, I am Antonio!</p>
+              <p className="grid-headtext text-center">Hello!</p>
               <p className="grid-subtext">
-                Hi, I&apos;m Antonio Felix, a Software Engineer based in NY.
-                I&apos;m passionate about full-stack development and have a
-                strong background in managing cross-functional projects. My
-                experience in project management has helped me drive operational
-                excellence and deliver impactful solutions.
+                I&apos;m Antonio Felix, a Software Engineer based in NY. I&apos;m passionate about full-stack development and have a strong background in managing cross-functional projects. My experience in project management has helped me streamline workflows, improve collaboration, and ensure timely delivery of impactful software solutions. This unique combination of skills enables me to not only write clean code but also drive projects from concept to completion efficiently.
               </p>
             </div>
           </div>
