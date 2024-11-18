@@ -12,8 +12,9 @@ export const navLinks = [
     {
       id: 4,
       name: 'Contact',
-      href: '#contact',
+      href: 'mailto:afelixjdev@gmail.com',
     },
+    
   ];
   
   export const myProjects = [
@@ -97,8 +98,8 @@ export const navLinks = [
       subdesc:
         'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
       href: 'https://recipemundo.netlify.app/;',
-      texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      texture: '/textures/project/recipeMundo.png',
+      logo: '/assets/recipemundo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -127,13 +128,13 @@ export const navLinks = [
       ]
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'meNu',
+      desc: ' This application enables users to register, log in, and share culinary recipes with a community. Users can add their own recipes, leave comments on recipes shared by others, and explore new dishes. The platform also includes a YouTube integration, which automatically searches for a recipe video based on the name of the dish. Logged-in users can access their own recipes, edit them, and manage them through a personalized dashboard.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        'The app is built using the MERN stack (MongoDB, Express, React, Node.js) for a dynamic user experience, with MongoDB for data storage, Express and Node.js for server-side logic, React for the front-end, and YouTube API integration for fetching recipe videos.',
+      href: 'https://socialmenunyc.netlify.app/;',
       texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+      logo: '/assets/meNu.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
